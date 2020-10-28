@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+.logo{
+    background:url(https://i.loli.net/2019/11/14/LVkXcBibEjh9s6v.png) center no-repeat;
+    height:150px;
+    width: 350px;
+    background-size: contain;
+    margin: 100px auto 0 auto;
+    
+}
+.search {
+    position: relative;
+    max-width: 582px;
+    height: 40px;
+    margin: 50px auto;
+    box-shadow: 0 0 0 1px #ccc;
+    border-radius: 25px;
+}
+.search > input {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius:50px;
+    padding: 0 40px;
+  }
+
+  .search > .icon-search{
+      position: absolute;
+      top: 12px;
+      left:10px;
+      color: #ccc;
+  }
+  .search > .icon-mic{
+      position: absolute;
+      top:12px;
+      right:10px;
+      color:#ccc
+  }
+  .search:hover {
+    box-shadow: 0 0 4px 0px #ccc;
+  }
+  .button {
+    text-align: center;
+  }
+  .button > span {
+    display: inline-block;
+    background: #eee;
+    font-size: 13px;
+    color: #666;
+    padding: 6px 12px;
+    margin: 16px 4px;
+    border-radius: 4px;
+  }
